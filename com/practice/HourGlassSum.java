@@ -1,20 +1,39 @@
 package com.practice;
-
+import java.util.Scanner;
 public class HourGlassSum {
 	int sum1,sum1a,sum1b,sum1c,sum2,sum2a,sum2b,sum2c,sum3,sum3a,sum3b,sum3c,sum4,sum4a,sum4b,sum4c,sum5,sum5a,sum5b,sum5c,sum6,sum6a,sum6b,sum6c,sum7,sum7a,sum7b,sum7c,sum8,sum8a,sum8b,sum8c;
 	int sum9,sum9a,sum9b,sum9c,sum10,sum10a,sum10b,sum10c,sum11,sum11a,sum11b,sum11c,sum12,sum12a,sum12b,sum12c,sum13,sum13a,sum13b,sum13c;
 	int sum14,sum14a,sum14b,sum14c,sum15,sum15a,sum15b,sum15c,sum16,sum16a,sum16b,sum16c;
-	int[][] SampleArray = new int[][] {
+	
+	int [][] SampleArray = new int[6][6];
+	
+	
+	
+	/*{
 		{1,1,1,0,0,0},
         {0,1,0,0,0,0},
         {1,1,1,0,0,0},
         {0,0,2,4,4,0},
         {0,0,0,2,0,0,},
-        {0,0,1,2,4,0}};
+        {0,0,1,2,4,0}};*/
+	
 	int max;
 	public void sumhg1()
-	{		
+	{	
+		Scanner scan = new Scanner(System.in);
 		
+		 //int s1 = scan.nextInt();
+		//String [] ar1= s1.split(" ");
+		for (int i=0;i<=5;i++ ) {
+		for (int j=0;j<=5;j++ )
+		{
+			System.out.println("Please enter array " +i +", "+ j+" element: ");
+			int s1 = scan.nextInt();
+			SampleArray[i][j]=s1;
+            
+		}
+		}
+		scan.close();
 		for(int i=0; i<=0;i++ )
 		{
 				
