@@ -1,0 +1,33 @@
+Answers:
+
+1. b
+2. b
+3.
+4. a
+5. d
+6. a
+7. i,k
+Database Questions:
+1.database view: 
+It is a sort of virtual table which may have data, selected from one or more tables.
+The view is stored in the database as an object but result is not stored in the table.
+It is implemented mostly for security reasons when we don't want the whole table or data to be shared with users. 
+Then users can use, query the selected view as a normal table.
+
+2.Foreign key:
+It is columnname (primary key) of one table to be used in another table to link the two tables in relational database.
+
+3.table scan:
+It is the process of reading every row in the table. It usually happens when there is no index during search queries. 
+A table scan can cause performance issue while dealing with very large tables so while querying the data we should 
+avoid table scan by having specific conditions so as to search the specific data instead of whole data.
+
+4.Largetst value:
+The largest value of acolumn can be found by MAX(column_name)
+
+5.Inner and Outer Join:
+Inner join displays the data which is common to the joining tables. Outer join can be Left , right or full.
+In left join the data displayed include all the data from the table on the left of join and data in the right table
+matching with left table. the same is with right join with right replacing the left in perspective.
+In full join data from both the tables will be included whether matchinh or not.
+ 
