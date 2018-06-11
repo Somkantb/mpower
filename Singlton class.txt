@@ -1,0 +1,9 @@
+
+A singleton class may be useful for certain tasks like database connection, logging connection where several people have 
+same requirement then it is not recommended to create separate object for every requirement. 
+
+However extensive usage of singlton classes is not a favourable idea. for example use of singleton is not good for multithreading as usage of a single object can limit the idea of multi threading.
+
+Singletons can not be used for clustering and are not good for effective memory management.
+Singletons forces the programmer to know the internal structure of the program as methods and variables used are static, at class level and unit testing static methods is not an easy task.
+singletons are not good for unit testing and extending the singletons is also difficult.
